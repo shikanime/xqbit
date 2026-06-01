@@ -18,7 +18,10 @@ Configuration is provided via flags or environment variables (prefix `QBT_`):
 Example:
 
 ```bash
-go run ./cmd/qbittorrent-cleanup --url https://qbittorrent.example --user alice --password '...'
+go run ./cmd/qbittorrent-cleanup \
+    --url https://qbittorrent.example \
+    --user alice \
+    --password '...'
 ```
 
 Build image:
