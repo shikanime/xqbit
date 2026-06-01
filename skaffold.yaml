@@ -1,0 +1,12 @@
+apiVersion: skaffold/v4beta9
+kind: Config
+metadata:
+  name: xqbit
+build:
+  artifacts:
+    - image: ghcr.io/shikanime/xqbit/qbittorrent-cleanup
+      context: cmd/qbittorrent-cleanup
+      ko: {}
+      platforms:
+        - linux/amd64
+        - linux/arm64
