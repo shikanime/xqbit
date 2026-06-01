@@ -1,9 +1,3 @@
-<!-- markdownlint-disable first-line-heading MD041 -->
-
-![header.png](https://raw.githubusercontent.com/shikanime/shikanime/main/assets/github-header.png)
-
-<!-- markdownlint-enable first-line-heading -->
-
 # XQBit
 
 Extra tooling for qBittorrent.
